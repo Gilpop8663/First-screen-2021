@@ -56,7 +56,9 @@ body {
 
 
 #colck-time{
-  height: 700px;
+  position:fixed;
+  top:100px;
+  right: 100px;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -64,4 +66,10 @@ body {
   color:rgba(255,255,255);
   animation: showClock 0.5s ease-in-out forwards;
   z-index: 1;
+}
+
+.top-gradation{
+  padding: 300px 0px;
+  background:linear-gradient(to bottom,rgba(0,0,0,5),rgba(0,0,0,0));
+  opacity: 0.8;
 }
