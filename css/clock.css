@@ -1,0 +1,36 @@
+.clock-background{
+    position:fixed;
+    font-size: 50px;
+    padding:85px 180px;
+    bottom:60px;
+    left:60px;
+    opacity: 0.3;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#colck-time{
+    position:fixed;
+    bottom:120px;
+    left: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color:rgba(255,255,255);
+    animation: showClock 0.5s ease-in-out forwards;
+    z-index: 1;
+    font-weight:600;
+    font-family: 'Josefin Slab', serif;
+  }
+  
+
+.js-today{
+    position:fixed;
+    bottom: 60px;
+    left: 60px;
+    color: white;
+    font-size: 35px;
+    font-weight:400;
+    font-family: 'Josefin Slab', serif
+}

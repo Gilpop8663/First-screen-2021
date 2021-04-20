@@ -1,6 +1,8 @@
 body {
-    background-color: #3d717e;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    font-family: 'Antonio', sans-serif;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans', sans-serif;
   }
   .btn {
     cursor: pointer;
@@ -57,8 +59,8 @@ body {
 
 #colck-time{
   position:fixed;
-  top:100px;
-  right: 100px;
+  bottom:250px;
+  left: 80px;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -66,10 +68,22 @@ body {
   color:rgba(255,255,255);
   animation: showClock 0.5s ease-in-out forwards;
   z-index: 1;
+  font-family: 'Antonio', sans-serif;
+  font-weight: 100;
 }
 
 .top-gradation{
   padding: 300px 0px;
   background:linear-gradient(to bottom,rgba(0,0,0,5),rgba(0,0,0,0));
   opacity: 0.8;
+}
+
+.js-greetings{
+  font-size: 50px;
+  color:blanchedalmond;
+  position:fixed;
+  top: 30%;
+  left:50%;
+  font-family: 'Antonio', sans-serif;
+  font-weight: 100;
 }
