@@ -11,7 +11,7 @@ function getDate(){
     const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
-    document.querySelector(".js-today").innerHTML = `${dayEnglish[today.getDay(day)]},${monthNames[today.getMonth()]} ${date},${year}`
+    document.querySelector(".js-today").innerHTML = `${dayEnglish[today.getDay(day)]},${monthNames[today.getMonth()]} ${date} ,${year}`
 }
 // document.querySelector("h1").innerHTML = `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}`;
 

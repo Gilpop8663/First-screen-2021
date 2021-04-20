@@ -1,14 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;600&family=Josefin+Slab:ital,wght@0,300;0,600;1,400&family=Open+Sans:wght@300;400;600&display=swap');
-
-
-
 @import"reset.css";
+@import "variable.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;600;700&family=Josefin+Slab:wght@300;400;600;700&family=Noto+Serif+KR:wght@200;400&display=swap');
+
+
+
+
 @import"index.css";
 @import"clock.css";
-
-body {
-    background-color: black;
-    font-family: 'Josefin Slab', serif,'Antonio', sans-serif,'Open Sans', sans-serif;
-
-  }
+@import"greeting.css";
+@import"globals.css";
+@import"todolist.css";
+@import"link.css";
+@import"weather.css";

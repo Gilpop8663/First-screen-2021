@@ -1,0 +1,9 @@
+.js-weather{
+    font-family: (--fonthouse);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--mainColor);
+    position:fixed;
+    left:60px;
+    top:130.4231px;
+}

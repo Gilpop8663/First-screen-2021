@@ -21,7 +21,7 @@
     animation: showClock 0.5s ease-in-out forwards;
     z-index: 1;
     font-weight:600;
-    font-family: 'Josefin Slab', serif;
+    font-family: var(--fonthouse);
   }
   
 
@@ -32,5 +32,5 @@
     color: white;
     font-size: 35px;
     font-weight:400;
-    font-family: 'Josefin Slab', serif
+    font-family: var(--fonthouse);
 }

@@ -1,0 +1,46 @@
+.logo-img{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 16px;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px 0px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.linklogo{
+    position:relative;
+    top:-257.762px;
+    left:60px;
+    padding-right:16px;
+    width: 70px;
+    height:70px;
+    display: inline-flex;
+    align-content: space-between;
+    text-align: center;
+    color:white;
+}
+
+.web-link{
+    
+    text-decoration: none;
+}
+
+.web-link:visited{
+    color:white;
+}
+
+.web-link:link{
+    color:white;
+}
+
+.web-link:focus {
+    border-bottom: 1px solid;
+    color: #BAE498;
+  }
+  
+.web-link:hover {
+    border-bottom: 1px solid;
+    background: darkmagenta;
+  }

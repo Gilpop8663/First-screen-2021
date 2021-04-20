@@ -1,0 +1,46 @@
+.toDo-background{
+    position: fixed;
+    bottom: 60px;
+    right:60px;
+    padding:230px 280px ;
+    border-radius: 64.6304px;
+    background-color: var(--mainColor);
+    opacity: 0.3;
+}
+
+.toDo-list{
+    
+    font-size: 75px;
+    color: var(--mainColor);
+    position:absolute;
+    bottom: 424.976px;
+    right:202.833px;
+    justify-content: space-between ;
+    font-family: var(--fonthouse);
+    font-weight: 700;
+    text-align: center;
+}
+
+.toDo-named{
+    position: fixed;
+    bottom: 60px;
+    right:60px;
+    padding:230px 280px ;
+    border-radius: 64.6304px;
+
+}
+
+.js-toDoList{
+    height: 460px;
+    width: 560px;
+    top:110px;
+    font-size: 30px;
+    color: var(--mainColor);
+    position:absolute;
+    left:0px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonthouse);
+    font-weight: 200;
+    text-align: center;
+}

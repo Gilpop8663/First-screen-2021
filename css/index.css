@@ -1,17 +1,8 @@
-body {
-    background-color: black;
-    font-family: 'Antonio', sans-serif;
-  font-family: 'Josefin Slab', serif;
-  font-family: 'Open Sans', sans-serif;
-  }
+
   .btn {
     cursor: pointer;
   }
 
-    body {
-    color: #34495e;
-    transition: color 0.5s ease-in-out;
-  }
   
 .clicked {
     color: #7f8c8d;
@@ -68,7 +59,7 @@ body {
   color:rgba(255,255,255);
   animation: showClock 0.5s ease-in-out forwards;
   z-index: 1;
-  font-family: 'Antonio', sans-serif;
+  font-family: var(--fonthouse);
   font-weight: 100;
 }
 
@@ -78,12 +69,3 @@ body {
   opacity: 0.8;
 }
 
-.js-greetings{
-  font-size: 50px;
-  color:blanchedalmond;
-  position:fixed;
-  top: 30%;
-  left:50%;
-  font-family: 'Antonio', sans-serif;
-  font-weight: 100;
-}
