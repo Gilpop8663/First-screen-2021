@@ -1,6 +1,6 @@
 .js-greetings{
     font-size: 35px;
-    color:blanchedalmond;
+    color:var(--mainColor);
     position:fixed;
     bottom: 120px;
     left : 789.2903px;
@@ -14,7 +14,7 @@
 .writeToDo{
     font-size: 20px;
     display: inline-block;
-    color:blanchedalmond;
+    color:var(--mainColor);
     position:absolute;
     bottom: 95px;
     left : 793.3432px;

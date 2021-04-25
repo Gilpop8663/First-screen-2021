@@ -35,11 +35,15 @@ function paintToDo(text){
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
     const newId = toDos.length +1;
-    delBtn.innerHTML = "❌";
+    const svg = document.createElement("i");
+    svg.className = "fas fa-minus-circle"
+    delBtn.innerText = ""
+    svg.innerText = ""
     delBtn.addEventListener("click", deleteToDo);
     span.innerText = text;
     li.appendChild(span);
     li.appendChild(delBtn);
+    delBtn.appendChild(svg);
     li.id = newId;
     toDoList.appendChild(li);
     const toDoObj = {

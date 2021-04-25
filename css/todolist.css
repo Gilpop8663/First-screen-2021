@@ -44,3 +44,23 @@
     font-weight: 200;
     text-align: center;
 }
+
+button{
+    background-color: none;
+    color:rgba(0,0,0,0.9);
+    outline:none;
+    outline-style: none;
+    opacity:1 ;
+    border-radius: 5px;
+    border: 0.5px solid (black);
+    padding:5px;
+}
+
+button:hover{
+    color:white;
+    background-color: skyblue;
+}
+
+.fa-minus-circle{
+    opacity: 1;
+}

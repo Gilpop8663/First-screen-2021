@@ -1,0 +1,28 @@
+.nameInput{
+    border-radius: 14.3px;
+    width: 325.6484px;
+    font-size: 20px;
+    display: inline;
+    color:rgba(0,0,0,0.8);
+    background-color: var(--mainColor);
+    position:absolute;
+    bottom: 140px;
+    left : 800px;
+    justify-content: space-between ;
+    font-family: var(--fonthouse);
+    font-weight: 600;
+    text-align: center;
+}
+
+.writeName{
+    font-size: 20px;
+    display: inline-block;
+    color:blanchedalmond;
+    position:absolute;
+    bottom: 180px;
+    left : 869px;
+    justify-content: space-between ;
+    font-family: var(--fonthouse);
+    font-weight: 400;
+    text-align: center;
+}

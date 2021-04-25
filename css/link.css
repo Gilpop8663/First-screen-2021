@@ -11,7 +11,7 @@
 
 .linklogo{
     position:relative;
-    top:-257.762px;
+    top:-400px;
     left:60px;
     padding-right:16px;
     width: 70px;
@@ -19,7 +19,7 @@
     display: inline-flex;
     align-content: space-between;
     text-align: center;
-    color:white;
+    color:var(--mainColor);
 }
 
 .web-link{
@@ -28,11 +28,11 @@
 }
 
 .web-link:visited{
-    color:white;
+    color:var(--mainColor);
 }
 
 .web-link:link{
-    color:white;
+    color:var(--mainColor);
 }
 
 .web-link:focus {

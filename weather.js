@@ -5,15 +5,19 @@ const API_KEY ="0db106f17f347fd5d0c8aa5eb69deb43";
 
 const COORDS = 'coords';
 
+const CITY = "json.city.id";
+
 function getWeather(lat,lng){
-    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric&lang=kr`)
+
     .then(function(response){
       return response.json();
     })
     .then(function(json){
         const temperatre = json.main.temp;
         const place = json.name;
-        weather.innerText = `${temperatre} @ ${place}`;
+        const sky1 = json.sys.country;
+        weather.innerText = `${temperatre}℃ @ ${place} ${sky1}`;
     });
 }
 
