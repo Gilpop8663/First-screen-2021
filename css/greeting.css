@@ -1,43 +1,55 @@
 .js-greetings{
     font-size: 35px;
     color:var(--mainColor);
-    position:fixed;
-    bottom: 120px;
-    left : 789.2903px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -235px;
     justify-content: space-between ;
     font-family: var(--fonthouse);
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
   }
 
 
 .writeToDo{
     font-size: 20px;
-    display: inline-block;
     color:var(--mainColor);
-    position:absolute;
-    bottom: 95px;
-    left : 793.3432px;
-    justify-content: space-between ;
     font-family: var(--fonthouse);
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 400;
+    position:relative;
+    align-self: center;
     text-align: center;
+
 }
+
+/* .js-toDoForm{
+  position: relative;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-self: center;
+} */
 
 .toDoinput{
     border-radius: 14.3px;
     width: 325.6484px;
     font-size: 20px;
-    display: inline;
     color:rgba(0,0,0,0.8);
     background-color: var(--mainColor);
-    position:absolute;
-    bottom: 60px;
-    left : 797.1758px;
-    justify-content: space-between ;
     font-family: var(--fonthouse);
     font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position:relative;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
     text-align: center;
+
 }
 
 input::placeholder {

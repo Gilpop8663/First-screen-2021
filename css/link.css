@@ -22,6 +22,12 @@
     color:var(--mainColor);
 }
 
+.logo-text{
+    padding-top: 6.5px;
+    font-size: 13px;
+    font-family: var(--fonthouse);
+}
+
 .web-link{
     
     text-decoration: none;
