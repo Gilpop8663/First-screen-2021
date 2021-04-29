@@ -7,8 +7,10 @@ body {
   }
 
   .js-toDoForm{
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 260px;
+    margin-top: 255px;
     text-align: center;
+    position:fixed;
   }

@@ -1,27 +1,29 @@
 .js-greetings{
     font-size: 35px;
+    width: 100%;
     color:var(--mainColor);
-    position:relative;
     margin-left: auto;
+    margin-top: 155px;
+    position:fixed;
     margin-right: auto;
-    margin-top: -235px;
     justify-content: space-between ;
     font-family: var(--fonthouse);
     font-weight: 400;
     text-align: center;
+    line-height: 45px;
   }
 
 
 .writeToDo{
-    font-size: 20px;
+    font-size: 18px;
     color:var(--mainColor);
     font-family: var(--fonthouse);
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
-    position:relative;
     align-self: center;
     text-align: center;
+    margin-bottom: 15px;
 
 }
 
@@ -35,20 +37,17 @@
 
 .toDoinput{
     border-radius: 14.3px;
-    width: 325.6484px;
-    font-size: 20px;
+    width: 325px;
+    font-size: 17px;
     color:rgba(0,0,0,0.8);
     background-color: var(--mainColor);
     font-family: var(--fonthouse);
-    font-weight: 600;
+    font-weight: 400;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
     position:relative;
-    justify-items: center;
-    align-content: center;
-    align-self: center;
     text-align: center;
+    
 
 }
 

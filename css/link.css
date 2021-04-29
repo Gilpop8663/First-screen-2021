@@ -1,3 +1,23 @@
+.linklogo-set{
+    position: absolute;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: -400px;
+    text-align: center;
+    animation:fadeIn 0.5s ease-in-out forwards;
+}
+
+
+@keyframes fadeIn{
+    from{
+      opacity: 0.2;
+    }
+    to{
+      opacity: 0.9;
+    }
+  
+  }
+  
 .logo-img{
     background-color: rgb(255, 255, 255);
     display: block;
@@ -11,8 +31,6 @@
 
 .linklogo{
     position:relative;
-    top:-400px;
-    left:60px;
     padding-right:16px;
     width: 70px;
     height:70px;
