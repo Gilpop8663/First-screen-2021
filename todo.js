@@ -40,6 +40,7 @@ function paintToDo(text){
     delBtn.innerText = ""
     svg.innerText = ""
     delBtn.addEventListener("click", deleteToDo);
+    svg.addEventListener("click",deleteToDo);
     span.innerText = text;
     li.appendChild(span);
     li.appendChild(delBtn);
